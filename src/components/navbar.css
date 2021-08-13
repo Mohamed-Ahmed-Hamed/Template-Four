@@ -1,0 +1,34 @@
+
+.navbar{
+	background-image: linear-gradient(#830555, #ff3435);
+	padding: 10px 50px;
+	display: flex;
+	 
+}
+.navbar .logo{
+	width: 200px;
+	height: 80px;
+}
+.navbar .logo a img{
+	width: 100%;
+	height: 100%;
+}
+.navbar .top{
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+	position: fixed;
+	z-index: 4;
+	background-image: linear-gradient(#830555, #ff3435);
+	padding: 10px;
+	border-radius: 10%;
+}
+.navbar .top i{
+	color: white;
+	cursor: pointer;
+}
+@media (max-width: 560px){
+	.navbar{
+	     justify-content: center;
+	}
+}

@@ -1,0 +1,30 @@
+.section6{
+	padding: 100px 200px;
+	text-align: center;
+
+}
+
+.section6 h2{
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #111111;
+    padding: 20px 0;
+
+}
+.section6 p{
+	font-size: 24px;
+	line-height: 38.4px;
+	color: #111111;
+}
+
+@media (max-width: 850px){
+	.section6{
+		padding: 100px 50px;
+	}
+}
+
+@media (max-width: 450px){
+	.section6{
+		padding: 100px 10px;
+	}
+}
